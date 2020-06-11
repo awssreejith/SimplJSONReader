@@ -11,3 +11,8 @@ The input file is ==> NobelLaurate.json
 
 The entire details can be obtained from Nobel prize committe's website through a REST call as below
 
+
+curl -X GET http://api.nobelprize.org/v1/prize.json?category=all&year=1900&yearto=2019
+
+The output will be in JSON string format. You can copy the output in to a file called 'NobelLaurate.json'
+
